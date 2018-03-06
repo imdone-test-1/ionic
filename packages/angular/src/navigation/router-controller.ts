@@ -14,6 +14,8 @@ export function initRouteViewElm(views: RouteView[], ref: ComponentRef<any>, act
     urlKey: getUrlKey(activatedRoute),
     deactivatedId: -1
   });
+
+  (ref.location.nativeElement as HTMLElement).classList.add('ion-page');
 }
 
 

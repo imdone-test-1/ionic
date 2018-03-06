@@ -10,8 +10,7 @@ import {
   selector: 'ion-nav',
   template: '<ng-content></ng-content>',
   styles: [`
-    ion-nav > * { display: none; }
-    ion-nav > .show-page { display: block; }
+    ion-nav > :not(.show-page) { display: none; }
   `],
   encapsulation: ViewEncapsulation.None
 })
