@@ -25,7 +25,6 @@ import { VirtualFooter } from './directives/virtual-footer';
 /* Providers */
 import { ActionSheetController } from './providers/action-sheet-controller';
 import { AlertController } from './providers/alert-controller';
-import { App } from './providers/app';
 import { Events, setupProvideEvents } from './providers/events';
 import { LoadingController } from './providers/loading-controller';
 import { MenuController } from './providers/menu-controller';
@@ -80,7 +79,6 @@ export class IonicAngularModule {
       providers: [
         AlertController,
         ActionSheetController,
-        App,
         Events,
         LoadingController,
         MenuController,

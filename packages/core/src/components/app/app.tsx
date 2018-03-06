@@ -1,8 +1,6 @@
 import { Component, Element, Prop } from '@stencil/core';
 import { Config } from '../../index';
 
-export type PublicNav = any;
-export type PublicViewController = any;
 
 @Component({
   tag: 'ion-app',
