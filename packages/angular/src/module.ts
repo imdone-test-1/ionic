@@ -12,8 +12,11 @@ import { RadioValueAccessor } from './control-value-accessors/radio-value-access
 import { SelectValueAccessor } from './control-value-accessors/select-value-accessor';
 import { TextValueAccessor } from './control-value-accessors/text-value-accessor';
 
+/* Navigation */
+import { IonNav } from './navigation/ion-nav';
+import { IonRouterOutlet } from './navigation/ion-router-outlet';
+
 /* Directives */
-import { IonNav } from './directives/ion-nav';
 import { VirtualScroll } from './directives/virtual-scroll';
 import { VirtualItem } from './directives/virtual-item';
 import { VirtualHeader } from './directives/virtual-header';
@@ -22,7 +25,6 @@ import { VirtualFooter } from './directives/virtual-footer';
 /* Providers */
 import { ActionSheetController } from './providers/action-sheet-controller';
 import { AlertController } from './providers/alert-controller';
-import { AngularComponentMounter } from './providers/angular-component-mounter';
 import { App } from './providers/app';
 import { Events, setupProvideEvents } from './providers/events';
 import { LoadingController } from './providers/loading-controller';
@@ -36,6 +38,7 @@ import { ToastController } from './providers/toast-controller';
   declarations: [
     BooleanValueAccessor,
     IonNav,
+    IonRouterOutlet,
     NumericValueAccessor,
     RadioValueAccessor,
     SelectValueAccessor,
@@ -48,6 +51,7 @@ import { ToastController } from './providers/toast-controller';
   exports: [
     BooleanValueAccessor,
     IonNav,
+    IonRouterOutlet,
     NumericValueAccessor,
     RadioValueAccessor,
     SelectValueAccessor,
@@ -63,8 +67,7 @@ import { ToastController } from './providers/toast-controller';
   ],
   providers: [
     ModalController,
-    PopoverController,
-    AngularComponentMounter
+    PopoverController
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA
