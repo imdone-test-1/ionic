@@ -3,6 +3,8 @@ export { IonicAngularModule } from './module';
 /* Navigation */
 export { IonNav } from './navigation/ion-nav';
 export { IonRouterOutlet } from './navigation/ion-router-outlet';
+export { IonTab } from './navigation/ion-tab';
+export { IonTabs } from './navigation/ion-tabs';
 
 /* Directives */
 export { VirtualScroll } from './directives/virtual-scroll';

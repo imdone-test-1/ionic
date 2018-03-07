@@ -15,6 +15,8 @@ import { TextValueAccessor } from './control-value-accessors/text-value-accessor
 /* Navigation */
 import { IonNav } from './navigation/ion-nav';
 import { IonRouterOutlet } from './navigation/ion-router-outlet';
+import { IonTab } from './navigation/ion-tab';
+import { IonTabs } from './navigation/ion-tabs';
 
 /* Directives */
 import { VirtualScroll } from './directives/virtual-scroll';
@@ -38,6 +40,8 @@ import { ToastController } from './providers/toast-controller';
     BooleanValueAccessor,
     IonNav,
     IonRouterOutlet,
+    IonTab,
+    IonTabs,
     NumericValueAccessor,
     RadioValueAccessor,
     SelectValueAccessor,
@@ -51,6 +55,8 @@ import { ToastController } from './providers/toast-controller';
     BooleanValueAccessor,
     IonNav,
     IonRouterOutlet,
+    IonTab,
+    IonTabs,
     NumericValueAccessor,
     RadioValueAccessor,
     SelectValueAccessor,
