@@ -300,7 +300,7 @@ export class App {
     const portal = this._appRoot._getPortal(appPortal);
 
     // Set Nav must be set here in order to dimiss() work synchnously.
-    // TODO: move _setNav() to the earlier stages of NavController. _queueTrns()
+    // TODO: move _setNav() to the earlier stages of NavController. _queueTrns() id:7 gh:8 ic:gh
     enteringView._setNav(portal);
 
     opts.direction = DIRECTION_FORWARD;
@@ -417,7 +417,7 @@ export class App {
       }
 
       focused = false;
-      // TODO: find a better way, why 50ms?
+      // TODO: find a better way, why 50ms? id:22 gh:23 ic:gh
       platform.timeout(() => {
         if (!focused) {
           active.blur();

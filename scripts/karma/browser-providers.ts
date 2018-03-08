@@ -45,7 +45,7 @@ const configuration: { [name: string]: ConfigurationInfo } = {
   'Safari9':      { unitTest: {target: 'BS', required: false}, e2e: {target: null, required: true}},
   'iOS7':         { unitTest: {target: 'BS', required: false}, e2e: {target: null, required: true}},
   'iOS8':         { unitTest: {target: 'BS', required: true}, e2e: {target: null, required: true}},
-  // TODO(mlaval): iOS9 deactivated as not reliable, reactivate after
+  // TODO (mlaval): iOS9 deactivated as not reliable, reactivate after id:5 gh:7 ic:gh
   //               https://github.com/angular/angular/issues/5408
   'iOS9':         { unitTest: {target: 'BS', required: false}, e2e: {target: null, required: true}},
   'WindowsPhone': { unitTest: {target: 'BS', required: false}, e2e: {target: null, required: true}}

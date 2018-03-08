@@ -86,8 +86,8 @@ $text-input-ios-highlight-color-invalid:   $text-input-highlight-color-invalid !
   // In order to get a 2px border we need to add an inset
   // box-shadow 1px (this is to avoid the div resizing)
 
-  // TODO remove all uses of input-has-focus in v4
-  // TODO remove all uses of input-has-value in v4
+  // TODO remove all uses of input-has-focus in v4 id:20 gh:21 ic:gh
+  // TODO remove all uses of input-has-value in v4 id:9 gh:10 ic:gh
   .item-ios.item-input.item-input-has-focus .item-inner,
   .item-ios.item-input.input-has-focus .item-inner {
     @include ios-input-highlight($text-input-ios-highlight-color);

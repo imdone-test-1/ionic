@@ -777,7 +777,7 @@ export class NavControllerBase extends Ion implements NavController {
       // it's safe to enable the app again
       this._app.setEnabled(true);
       // mark ourselves as not transitioning - `deepLinker navchange` requires this
-      // TODO - probably could be resolved in a better way
+      // TODO - probably could be resolved in a better way id:60 gh:61 ic:gh
       this.setTransitioning(false);
 
       if (!this.hasChildren() && opts.updateUrl !== false) {

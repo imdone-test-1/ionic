@@ -45,8 +45,8 @@ $label-wp-text-color-focused:         color($colors-wp, primary) !default;
   @include margin(null, null, 0, 0);
 }
 
-// TODO remove all uses of input-has-focus in v4
-// TODO remove all uses of input-has-value in v4
+// TODO remove all uses of input-has-focus in v4 id:56 gh:57 ic:gh
+// TODO remove all uses of input-has-value in v4 id:38 gh:39 ic:gh
 .item-input-has-focus .label-wp[stacked],
 .input-has-focus .label-wp[stacked],
 .item-input-has-focus .label-wp[floating],

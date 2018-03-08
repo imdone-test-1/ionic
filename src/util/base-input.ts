@@ -354,7 +354,7 @@ export class BaseInput<T> extends Ion implements CommonInput<T> {
     const item = this._item;
     if (item) {
       setControlCss(item, this._ngControl);
-      // TODO remove all uses of input-has-value in v4
+      // TODO remove all uses of input-has-value in v4 id:51 gh:52 ic:gh
       let hasValue = this.hasValue();
       item.setElementClass('input-has-value', hasValue);
       item.setElementClass('item-input-has-value', hasValue);

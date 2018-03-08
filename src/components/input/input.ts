@@ -403,7 +403,7 @@ export class TextInput extends BaseInput<string> implements IonicFormInput {
   onInput(ev: any) {
     this.value = ev.target.value;
 
-    // TODO: deprecate this
+    // TODO: deprecate this id:54 gh:55 ic:gh
     this.input.emit(ev);
   }
 
@@ -413,7 +413,7 @@ export class TextInput extends BaseInput<string> implements IonicFormInput {
   onBlur(ev: UIEvent) {
     this._fireBlur();
 
-    // TODO: deprecate this (06/07/2017)
+    // TODO: deprecate this (06/07/2017) id:36 gh:37 ic:gh
     this.blur.emit(ev);
 
     this._scrollData = null;
@@ -428,7 +428,7 @@ export class TextInput extends BaseInput<string> implements IonicFormInput {
   onFocus(ev: UIEvent) {
     this._fireFocus();
 
-    // TODO: deprecate this (06/07/2017)
+    // TODO: deprecate this (06/07/2017) id:44 gh:45 ic:gh
     this.focus.emit(ev);
   }
 

@@ -13,7 +13,7 @@ export class Tab1Page2 {
   constructor(public tabs: Tabs) { }
 
   favoritesTab() {
-    // TODO fix this with tabsHideOnSubPages=true
+    // TODO fix this with tabsHideOnSubPages=true id:59 gh:60 ic:gh
     this.tabs.select(1);
   }
 
