@@ -51,7 +51,7 @@ export class SlideGesture extends PanGesture {
       velocity: 0,
     };
 
-    // TODO: we should run this in the next frame
+    // TODO: we should run this in the next frame id:33 gh:34 ic:gh
     let {min, max} = this.getSlideBoundaries(this.slide, ev);
     this.slide.min = min;
     this.slide.max = max;

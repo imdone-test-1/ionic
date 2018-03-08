@@ -79,7 +79,7 @@ export function createWorker(msg: MessageToWorker): any {
       '--skipIonicAngularVersion', 'true'
     ];
 
-    // TODO, use prod once we're a little more settled
+    // TODO , use prod once we're a little more settled id:14 gh:15 ic:gh
     if (!msg.isDev) {
       scriptArgs.push('--aot');
     }

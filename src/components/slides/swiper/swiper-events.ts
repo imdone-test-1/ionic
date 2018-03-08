@@ -832,7 +832,7 @@ function onTouchEnd(s: Slides, plt: Platform, ev: SlideUIEvent) {
   ===========================*/
 let resizeId: number;
 function onResize(s: Slides, plt: Platform, forceUpdatePagination: boolean) {
-  // TODO: hacky, we should use Resize Observer in the future
+  // TODO: hacky, we should use Resize Observer in the future id:21 gh:22 ic:gh
   if (resizeId) {
     plt.cancelTimeout(resizeId);
     resizeId = null;

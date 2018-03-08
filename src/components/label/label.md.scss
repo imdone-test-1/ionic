@@ -67,8 +67,8 @@ $label-md-margin-start:               0 !default;
   @include margin(null, null, 0, 0);
 }
 
-// TODO remove all uses of input-has-focus in v4
-// TODO remove all uses of input-has-value in v4
+// TODO remove all uses of input-has-focus in v4 id:12 gh:13 ic:gh
+// TODO remove all uses of input-has-value in v4 id:26 gh:27 ic:gh
 .item-input-has-focus .label-md[stacked],
 .input-has-focus .label-md[stacked],
 .item-input-has-focus .label-md[floating],

@@ -87,7 +87,7 @@ $text-input-md-highlight-color-invalid:     $text-input-highlight-color-invalid 
   // In order to get a 2px border we need to add an inset
   // box-shadow 1px (this is to avoid the div resizing)
 
-  // TODO remove all uses of input-has-focus in v4
+  // TODO remove all uses of input-has-focus in v4 id:23 gh:24 ic:gh
   .item-md.item-input.item-input-has-focus .item-inner,
   .item-md.item-input.input-has-focus .item-inner {
     @include md-input-highlight($text-input-md-highlight-color);
@@ -107,8 +107,8 @@ $text-input-md-highlight-color-invalid:     $text-input-highlight-color-invalid 
 
 // Show the valid highlight when it has the .ng-valid class and a value
 @if ($text-input-md-show-valid-highlight) {
-  // TODO remove all uses of input-has-focus in v4
-  // TODO remove all uses of input-has-value in v4
+  // TODO remove all uses of input-has-focus in v4 id:53 gh:54 ic:gh
+  // TODO remove all uses of input-has-value in v4 id:8 gh:9 ic:gh
   .item-md.item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner,
   .item-md.item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner {
     @include md-input-highlight($text-input-md-highlight-color-valid);
